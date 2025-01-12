@@ -1,22 +1,30 @@
-MultiThreadTalker :
-Une application Java qui illustre le comportement classique de la programmation multi-threads. L'application crée 10 threads qui affichent 100 fois un message avec un numéro unique, démontrant le fonctionnement concurrent des threads en Java.
+🚀 MultiThreadTalker :
+Une application Java qui illustre le comportement classique de la programmation multi-threads. 
+L'application crée 10 threads qui affichent 100 fois un message avec un numéro unique, 
+démontrant le fonctionnement concurrent des threads en Java.
 
-Fonctionnalités :
+
+🌟 Fonctionnalités :
+
 🔢 Création de 10 threads exécutant la même tâche.
 💬 Chaque thread affiche 100 fois un message contenant un numéro unique associé à chaque instance du thread.
 🕹️ Comportement concurrent des threads observé dans la sortie console.
+
 Description du projet :
 Le programme comporte :
 
 Classe Talkative :
 Contient un entier unique comme attribut pour chaque instance.
+
 Implemente l'interface Runnable pour permettre l'exécution concurrente.
+
 La méthode run() affiche 100 fois la valeur de l'attribut associé à l'instance.
-Classe Main :gear:
+
+Classe Main :
 Crée 10 instances de Thread, chaque instance étant associée à un objet Talkative avec un numéro unique.
 Démarre les 10 threads pour observer leur exécution simultanée.
-Exécution :
-Prérequis :
+
+🛠️ Prérequis
 📦 Java Development Kit (JDK) 17 ou supérieur.
 🧑‍💻 Un IDE (comme IntelliJ IDEA, Eclipse) ou un terminal pour exécuter le programme.
 
